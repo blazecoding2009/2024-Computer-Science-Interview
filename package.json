@@ -1,0 +1,21 @@
+{
+  "name": "comp-sci-interview",
+  "version": "1.0.0-beta",
+  "description": "Stuff for my comp sci interview of 2024",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "comp-sci-interview"
+  },
+  "keywords": [
+    "comp-sci",
+    "express",
+    "backend",
+    "api"
+  ],
+  "author": "blaze",
+  "license": "ISC"
+}
