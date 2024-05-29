@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "comp-sci-interview"
+    "url": "https://github.com/blazecoding2009/2024-Computer-Science-Interview"
   },
   "keywords": [
     "comp-sci",
@@ -17,5 +17,8 @@
     "api"
   ],
   "author": "blaze",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
