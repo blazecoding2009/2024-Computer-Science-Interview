@@ -1,4 +1,4 @@
-# Computer Science Executive Interview Interview
+# Computer Science Executive Interview
 
 This repository contains code for my Computer Science Executive Interview. The API allows you to add and remove executive names from an array.
 
