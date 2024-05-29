@@ -10,13 +10,8 @@ const API_KEY = 'my-secret-api-key';
 // Middleware to check API key in headers
 const authenticate = (req, res, next) => {
     const apiKey = req.headers['x-api-key'];
-    if (apiKey && apiKey === API_KEY) {
-        next();
-    } else {
-        res.status(401).json({
-            message: 'Unauthorized'
-        });
-    }
+    if (apiKey && apiKey === API_KEY) next();
+    else res.status(401).json({ message: 'Unauthorized' });
 };
 
 let execs = ['Anthony', 'Eddy', 'Eric', 'Pranav', 'Yanzi'];
